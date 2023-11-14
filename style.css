@@ -15,6 +15,7 @@ body{
     position: fixed;
     background-color: white;
     width: 100%;
+    z-index: 1;
 }
 
 a{
@@ -34,7 +35,6 @@ a{
 .lien{
     margin-right: 15px;
 }
-
 a:hover{
     background-color: rgb(89, 146, 146);
     padding: 10px;
@@ -85,6 +85,7 @@ span{
     background-color: black;
     color: white;
     padding: 10px;
+    
 }
 
 h2{
@@ -94,6 +95,7 @@ h2{
 
 .texte{
     text-align: justify;
+    margin: 0 40px;
 }
 
 .container_team{
@@ -106,3 +108,36 @@ h2{
 .team_card{
     width: 300px;
 }
+
+.team_text{
+    text-align: justify;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.info{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.inf_sup{
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.ctc{
+    margin-top: 10px;
+    background-color: darkgrey;
+    text-align: center;
+    padding: 10px;
+}
+
+.ctc:hover{
+    background-color: rgb(27, 31, 29);
+}
+
